@@ -46,7 +46,7 @@ export default function Page() {
   <div className="flex gap-4 p-2 whitespace-nowrap">
 
     {/* Pastilla 1 */}
-    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+    <div className="relative w-68 h-68 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
       <img
         src="/imgs/daw1.jpg"
         alt="DAW 1"
@@ -58,7 +58,7 @@ export default function Page() {
     </div>
 
     {/* Pastilla 2 */}
-    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+    <div className="relative w-68 h-68 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
       <img
         src="/imgs/daw2.jpg"
         alt="DAW 2"
@@ -70,7 +70,7 @@ export default function Page() {
     </div>
 
     {/* Pastilla 3 */}
-    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+    <div className="relative w-68 h-68 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
       <img
         src="/imgs/dam1.jpg"
         alt="DAM 1"
@@ -82,7 +82,7 @@ export default function Page() {
     </div>
 
     {/* Pastilla 4 */}
-    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+    <div className="relative w-68 h-68 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
       <img
         src="/imgs/hardware.jpg"
         alt="Hardware"
@@ -93,7 +93,7 @@ export default function Page() {
       </span>
     </div>
       {/* Pastilla 5 */}
-      <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <div className="relative w-68 h-68 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
       <img
         src="/imgs/hardware.jpg"
         alt="Hardware"
@@ -104,7 +104,7 @@ export default function Page() {
       </span>
     </div>
       {/* Pastilla 6 */}
-      <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <div className="relative w-68 h-68 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
       <img
         src="/imgs/hardware.jpg"
         alt="Hardware"
