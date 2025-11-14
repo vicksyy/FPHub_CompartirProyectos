@@ -42,16 +42,82 @@ export default function Page() {
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-          <div className="grid auto-rows-min gap-4 md:grid-cols-1">
-          <div className="bg-muted/50 aspect-video rounded-xl max-h-[30vh] min-w-[84.5vw] overflow-x-auto whitespace-nowrap flex items-center gap-2 p-4">
-            {/* Pastillas */}
-            <span className="px-3 py-1 bg-muted rounded-full flex-shrink-0">Etiqueta 1</span>
-            <span className="px-3 py-1 bg-muted rounded-full flex-shrink-0">Etiqueta 2</span>
-            <span className="px-3 py-1 bg-muted rounded-full flex-shrink-0">Etiqueta 3</span>
-            <span className="px-3 py-1 bg-muted rounded-full flex-shrink-0">Etiqueta 4</span>
-            <span className="px-3 py-1 bg-muted rounded-full flex-shrink-0">Etiqueta 5</span>
-        </div>
-          </div>
+        <div className="w-full overflow-x-auto">
+  <div className="flex gap-4 p-2 whitespace-nowrap">
+
+    {/* Pastilla 1 */}
+    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <img
+        src="/imgs/daw1.jpg"
+        alt="DAW 1"
+        className="object-cover w-full h-full"
+      />
+      <span className="absolute bottom-2 left-2 bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+        DAW 1
+      </span>
+    </div>
+
+    {/* Pastilla 2 */}
+    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <img
+        src="/imgs/daw2.jpg"
+        alt="DAW 2"
+        className="object-cover w-full h-full"
+      />
+      <span className="absolute bottom-2 left-2 bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+        DAW 2
+      </span>
+    </div>
+
+    {/* Pastilla 3 */}
+    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <img
+        src="/imgs/dam1.jpg"
+        alt="DAM 1"
+        className="object-cover w-full h-full"
+      />
+      <span className="absolute bottom-2 left-2 bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+        DAM 1
+      </span>
+    </div>
+
+    {/* Pastilla 4 */}
+    <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <img
+        src="/imgs/hardware.jpg"
+        alt="Hardware"
+        className="object-cover w-full h-full"
+      />
+      <span className="absolute bottom-2 left-2 bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+        HARDWARE
+      </span>
+    </div>
+      {/* Pastilla 5 */}
+      <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <img
+        src="/imgs/hardware.jpg"
+        alt="Hardware"
+        className="object-cover w-full h-full"
+      />
+      <span className="absolute bottom-2 left-2 bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+        HARDWARE
+      </span>
+    </div>
+      {/* Pastilla 6 */}
+      <div className="relative w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-muted cursor-pointer">
+      <img
+        src="/imgs/hardware.jpg"
+        alt="Hardware"
+        className="object-cover w-full h-full"
+      />
+      <span className="absolute bottom-2 left-2 bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+        HARDWARE
+      </span>
+    </div>
+
+  </div>
+</div>
+
           <div className="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min" />
         </div>
       </SidebarInset>
