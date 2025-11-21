@@ -164,85 +164,75 @@ export default function Page() {
 
               </CarouselContent>
 
-              <CarouselPrevious />
-              <CarouselNext />
+              <CarouselPrevious  className="left-2 z-20" />
+              <CarouselNext className="right-2 z-20" />
             </Carousel>
           </div>
       </div>
           {/* RESTO DEL CONTENIDO */}
-          <section className="w-full px-6 py-10">
-      {/* Título */}
-      <h2 className="text-2xl font-semibold text-red-400 mb-6">Destacado</h2>
+         <section className="w-full px-6 py-10">
+  {/* Título */}
+  <h2 className="text-2xl font-semibold text-red-400 mb-6">Destacado</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Tarjeta principal */}
-        <div className="md:col-span-2 bg-white rounded-xl shadow overflow-hidden">
-          <img
-            src="/images/control-room.jpg"
-            alt="Control Room"
-            className="w-full h-64 object-cover"
-          />
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-          <div className="p-5">
-            <span className="text-sm text-red-400 font-semibold">
-              Alumno 1
-            </span>
-            <h3 className="text-xl font-bold mt-1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem sit amet dolor
-            </h3>
-            <p className="text-gray-600 mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem sit amet dolor.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem sit amet dolor.
-            </p>
-          </div>
-        </div>
+    {/* Tarjeta principal */}
+    <div className="md:col-span-2 bg-white rounded-xl shadow overflow-hidden h-full flex flex-col">
+      <img
+        src="/images/control-room.jpg"
+        alt="Control Room"
+        className="w-full h-64 object-cover"
+      />
 
-        {/* Columna con 3 tarjetas pequeñas */}
-        <div className="flex flex-col space-y-4">
-          {/* Tarjeta 2 */}
-          <div className="flex bg-white rounded-xl shadow overflow-hidden">
-            <img
-              src="/images/news1.jpg"
-              alt="News 1"
-              className="w-28 h-28 object-cover"
-            />
-            <div className="p-3">
-              <span className="text-sm text-gray-400">Alumno 2</span>
-              <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
-              <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur sit</p>
-            </div>
-          </div>
+      <div className="p-5">
+        <span className="text-sm text-red-400 font-semibold">Alumno 1</span>
+        <h3 className="text-xl font-bold mt-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem sit amet dolor
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem sit amet dolor.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem sit amet dolor.
+        </p>
+      </div>
+    </div>
 
-          {/* Tarjeta 3 */}
-          <div className="flex bg-white rounded-xl shadow overflow-hidden">
-            <img
-              src="/images/news2.jpg"
-              alt="News 2"
-              className="w-28 h-28 object-cover"
-            />
-            <div className="p-3">
-              <span className="text-sm text-gray-400">Alumno 3</span>
-              <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
-              <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur sit</p>
-            </div>
-          </div>
+    {/* Columna con tarjetas pequeñas */}
+    <div className="flex flex-col justify-between h-full">
 
-          {/* Tarjeta 4 */}
-          <div className="flex bg-white rounded-xl shadow overflow-hidden">
-            <img
-              src="/images/news3.jpg"
-              alt="News 3"
-              className="w-28 h-28 object-cover"
-            />
-            <div className="p-3">
-              <span className="text-sm text-gray-400">Alumno 4</span>
-              <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
-              <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur sit</p>
-            </div>
-          </div>
+      {/* Tarjeta 2 */}
+      <div className="flex bg-white rounded-xl shadow overflow-hidden">
+        <img src="/images/news1.jpg" alt="News 1" className="w-28 h-28 object-cover" />
+        <div className="p-3">
+          <span className="text-sm text-gray-400">Alumno 2</span>
+          <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
+          <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur sit</p>
         </div>
       </div>
-    </section>
+
+      {/* Tarjeta 3 */}
+      <div className="flex bg-white rounded-xl shadow overflow-hidden">
+        <img src="/images/news2.jpg" alt="News 2" className="w-28 h-28 object-cover" />
+        <div className="p-3">
+          <span className="text-sm text-gray-400">Alumno 3</span>
+          <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
+          <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur sit</p>
+        </div>
+      </div>
+
+      {/* Tarjeta 4 */}
+      <div className="flex bg-white rounded-xl shadow overflow-hidden">
+        <img src="/images/news3.jpg" alt="News 3" className="w-28 h-28 object-cover" />
+        <div className="p-3">
+          <span className="text-sm text-gray-400">Alumno 4</span>
+          <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
+          <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur sit</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <section className="w-full bg-[#104B57] py-16 px-6">
       {/* Título */}
@@ -354,6 +344,25 @@ export default function Page() {
         </div>
       </div>
     </section>
+     <footer className="w-full mt-8 pt-6 border-t">
+      <div className="max-w-6xl mx-auto text-center px-4">
+
+        {/* Links */}
+        <nav className="flex flex-wrap justify-center gap-6 text-sm text-[#0E4A54] font-medium mb-3">
+          <a href="/" className="hover:underline">Home / News</a>
+          <a href="/proyectos" className="hover:underline">Proyectos</a>
+          <a href="/secretaria" className="hover:underline">Secretaria</a>
+          <a href="/reuniones" className="hover:underline">Reuniones</a>
+          <a href="/quedadas" className="hover:underline">Quedadas</a>
+          <a href="/incidencias" className="hover:underline">Incidencias</a>
+        </nav>
+
+        {/* Copyright */}
+        <p className="text-sm text-gray-500 mt-1 mb-6">
+          © 2025 Name -- Portal Campus
+        </p>
+      </div>
+    </footer>
       </SidebarInset>
     </SidebarProvider>
   )
