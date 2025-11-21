@@ -71,7 +71,7 @@ export default function Page() {
                   <div className="p-1">
                     <div className="relative overflow-hidden rounded-xl">
                       <img
-                        src="/imgs/daw1.jpg"
+                        src="/img/placeholder.webp"
                         alt="DAW 1"
                         className="w-full h-[200px] object-cover"
                       />
@@ -87,7 +87,7 @@ export default function Page() {
                   <div className="p-1">
                     <div className="relative overflow-hidden rounded-xl">
                       <img
-                        src="/imgs/daw2.jpg"
+                        src="/img/placeholder.webp"
                         alt="DAW 2"
                         className="w-full h-[200px] object-cover"
                       />
@@ -103,7 +103,7 @@ export default function Page() {
                   <div className="p-1">
                     <div className="relative overflow-hidden rounded-xl">
                       <img
-                        src="/imgs/dam1.jpg"
+                        src="/img/placeholder.webp"
                         alt="DAM 1"
                         className="w-full h-[200px] object-cover"
                       />
@@ -119,7 +119,7 @@ export default function Page() {
                   <div className="p-1">
                     <div className="relative overflow-hidden rounded-xl">
                       <img
-                        src="/imgs/hardware.jpg"
+                        src="/img/placeholder.webp"
                         alt="Hardware"
                         className="w-full h-[200px] object-cover"
                       />
@@ -135,7 +135,7 @@ export default function Page() {
                   <div className="p-1">
                     <div className="relative overflow-hidden rounded-xl">
                       <img
-                        src="/imgs/hardware.jpg"
+                        src="/img/placeholder.webp"
                         alt="Hardware"
                         className="w-full h-[200px] object-cover"
                       />
@@ -151,7 +151,7 @@ export default function Page() {
                   <div className="p-1">
                     <div className="relative overflow-hidden rounded-xl">
                       <img
-                        src="/imgs/hardware.jpg"
+                        src="/img/placeholder.webp"
                         alt="Hardware"
                         className="w-full h-[200px] object-cover"
                       />
@@ -179,7 +179,7 @@ export default function Page() {
     {/* Tarjeta principal */}
     <div className="md:col-span-2 bg-white rounded-xl shadow overflow-hidden h-full flex flex-col">
       <img
-        src="/images/control-room.jpg"
+        src="/img/placeholder.webp"
         alt="Control Room"
         className="w-full h-64 object-cover"
       />
@@ -201,7 +201,7 @@ export default function Page() {
 
       {/* Tarjeta 2 */}
       <div className="flex bg-white rounded-xl shadow overflow-hidden">
-        <img src="/images/news1.jpg" alt="News 1" className="w-28 h-28 object-cover" />
+        <img src="/img/placeholder.webp" alt="News 1" className="w-28 h-28 object-cover" />
         <div className="p-3">
           <span className="text-sm text-gray-400">Alumno 2</span>
           <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
@@ -211,7 +211,7 @@ export default function Page() {
 
       {/* Tarjeta 3 */}
       <div className="flex bg-white rounded-xl shadow overflow-hidden">
-        <img src="/images/news2.jpg" alt="News 2" className="w-28 h-28 object-cover" />
+        <img src="/img/placeholder.webp" alt="News 2" className="w-28 h-28 object-cover" />
         <div className="p-3">
           <span className="text-sm text-gray-400">Alumno 3</span>
           <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
@@ -221,7 +221,7 @@ export default function Page() {
 
       {/* Tarjeta 4 */}
       <div className="flex bg-white rounded-xl shadow overflow-hidden">
-        <img src="/images/news3.jpg" alt="News 3" className="w-28 h-28 object-cover" />
+        <img src="/img/placeholder.webp" alt="News 3" className="w-28 h-28 object-cover" />
         <div className="p-3">
           <span className="text-sm text-gray-400">Alumno 4</span>
           <h4 className="font-semibold">Lorem ipsum dolor sit amet</h4>
@@ -246,7 +246,7 @@ export default function Page() {
         {/* Comentario 1 */}
         <div className="flex flex-col items-center text-white space-y-4">
           <img
-            src="/images/user1.jpg"
+            src="/img/placeholder.webp"
             alt="User 1"
             className="w-24 h-24 rounded-full object-cover"
           />
@@ -265,7 +265,7 @@ export default function Page() {
         {/* Comentario 2 */}
         <div className="flex flex-col items-center text-white space-y-4">
           <img
-            src="/images/user2.jpg"
+            src="/img/placeholder.webp"
             alt="User 2"
             className="w-24 h-24 rounded-full object-cover"
           />
@@ -284,7 +284,7 @@ export default function Page() {
         {/* Comentario 3 */}
         <div className="flex flex-col items-center text-white space-y-4">
           <img
-            src="/images/user3.jpg"
+            src="/img/placeholder.webp"
             alt="User 3"
             className="w-24 h-24 rounded-full object-cover bg-white p-1"
           />
@@ -337,7 +337,7 @@ export default function Page() {
         {/* Imagen */}
         <div className="flex-1 flex justify-center md:justify-end">
           <img
-            src="/images/community.jpg"
+            src="/img/placeholder.webp"
             alt="Comunidad"
             className="w-full max-w-sm rounded-xl shadow-lg object-cover"
           />
@@ -349,7 +349,7 @@ export default function Page() {
 
         {/* Links */}
         <nav className="flex flex-wrap justify-center gap-6 text-sm text-[#0E4A54] font-medium mb-3">
-          <a href="/" className="hover:underline">Home / News</a>
+          <a href="#" className="hover:underline">Home / News</a>
           <a href="/proyectos" className="hover:underline">Proyectos</a>
           <a href="/secretaria" className="hover:underline">Secretaria</a>
           <a href="/reuniones" className="hover:underline">Reuniones</a>
