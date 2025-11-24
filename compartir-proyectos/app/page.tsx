@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
 import { AppSidebar } from "@/components/app-sidebar"
 import {
   Breadcrumb,
@@ -175,15 +176,16 @@ export default function Page() {
   <h2 className="text-2xl font-semibold text-red-400 mb-6">Destacado</h2>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
+  
     {/* Tarjeta principal */}
     <div className="md:col-span-2 bg-white rounded-xl shadow overflow-hidden h-full flex flex-col">
-      <img
+     <Link href="/proyecto"> 
+     <img
         src="/img/placeholder.webp"
         alt="Control Room"
         className="w-full h-64 object-cover"
       />
-
+      </Link>
       <div className="p-5">
         <span className="text-sm text-red-400 font-semibold">Alumno 1</span>
         <h3 className="text-xl font-bold mt-1">
@@ -195,6 +197,7 @@ export default function Page() {
         </p>
       </div>
     </div>
+    
 
     {/* Columna con tarjetas pequeñas */}
     <div className="flex flex-col justify-between h-full">
