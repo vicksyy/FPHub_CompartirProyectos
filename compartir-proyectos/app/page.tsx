@@ -257,12 +257,11 @@ export default function Page() {
           <p className="text-sm text-gray-200 px-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat in nulla sed egestas. Mauris ac mi sapien.
           </p>
-          <a
-            href="#"
-            className="text-gray-300 text-sm hover:text-white underline underline-offset-4"
+          <Link href="/proyecto">
+          <div className="text-gray-300 text-sm hover:text-white underline underline-offset-4"
           >
-            Ver más +
-          </a>
+            Ver más + </div>
+          </Link>
         </div>
 
         {/* Comentario 2 */}
@@ -276,12 +275,11 @@ export default function Page() {
           <p className="text-sm text-gray-200 px-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat in nulla sed egestas. Mauris ac mi sapien.
           </p>
-          <a
-            href="#"
-            className="text-gray-300 text-sm hover:text-white underline underline-offset-4"
+          <Link href="/proyecto">
+          <div className="text-gray-300 text-sm hover:text-white underline underline-offset-4"
           >
-            Ver más +
-          </a>
+            Ver más + </div>
+          </Link>
         </div>
 
         {/* Comentario 3 */}
@@ -295,12 +293,11 @@ export default function Page() {
           <p className="text-sm text-gray-200 px-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat en nulla sed egestas. Mauris ac mi sapien.
           </p>
-          <a
-            href="#"
-            className="text-gray-300 text-sm hover:text-white underline underline-offset-4"
+          <Link href="/proyecto">
+          <div className="text-gray-300 text-sm hover:text-white underline underline-offset-4"
           >
-            Ver más +
-          </a>
+            Ver más + </div>
+          </Link>
         </div>
       </div>
     </section>
